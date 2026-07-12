@@ -1,6 +1,7 @@
 
 import './App.css'
-import Title from "./Title.jsx"
+// import Title from "./Title.jsx"
+import ProductTab from "./ProductTab.jsx";
 
 
 // function Des() {
@@ -12,11 +13,16 @@ function App() {
   <>
     {/* <h1>This is my app component</h1>
     <p>inside app component we have: </p> */}
-  <Title />
+  {/* <Title /> */}
   {/* <Des /> */}
-  <Title />
+  {/* <Title /> */}
   {/* <Des /> */}
-  <Title />
+  {/* <Title /> */}
+
+  <ProductTab />
+  <ProductTab />
+  <ProductTab />
+  
   </>
   );
 }
