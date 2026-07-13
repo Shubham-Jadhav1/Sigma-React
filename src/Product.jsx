@@ -1,8 +1,11 @@
-function Product() {
+import "./Product.css";
+
+function Product({title, price ="1"}) {
+  console.log(title);
     return (
-          <div>
-            <h3>This is Product Section</h3>
-            <h5>This is description part</h5>
+          <div className="Product">
+            <h3>{title},</h3>
+            <h5>price: {price}</h5>
           </div>
     );
 }
